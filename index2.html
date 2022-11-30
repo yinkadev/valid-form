@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ <!-- Font Awesome -->
+ <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="style2.css">
+  <title>form-validation</title>
+</head>
+<body>
+<div class="container">
+  <div id="Form"\>
+    <h5>Responsive Registration form</h5>
+    <div id="erro"></div>
+    <div  class="first-input ">
+      <i class="fa fa-envelope icon"></i>
+      <input type="text" name="name" id="Email" placeholder="Email">
+    </div>
+
+    <div class="first-input">
+      <i class='fas fa-lock icon'></i> 
+      <input type="password" name="Password" id="Password" placeholder="Password">
+      <i class='fas fa-lock icon'></i> 
+    </div>
+
+    <div class="first-input">
+      <i class='fas fa-lock icon'></i>
+      <input type="password" name="name" id="ReType" placeholder="Re-type Password">
+      
+    </div>
+
+
+    <div class="name-info ">
+      <i class='fas fa-user icon'></i>
+      <input type="text" name="name" id="FirstName"placeholder="First Name"> 
+      <input type="text" name="name" id="LastName" placeholder= "Last Name">
+      <i class='fas fa-user icon'></i>
+    </div>
+
+    <div class="gender">
+      <div id="RadioOne">
+        <input type="radio" name="male" value="male">
+      <label for="male">Male</label><span>
+        <input type="radio" name="female" value="female">
+        <label for="female">Female</label>
+      </span>
+    
+
+      </div>
+       </div>
+
+
+    <select name="country" id="Country">
+      <option>Select a country
+        <option value="Ng">NIGERIA</option>
+        <option value="Ng">DUBIA</option>
+        <option value="Ng">CANADA</option>
+        <option value="Ng">GHANA</option>
+        <option value="Ng">SOUTH AFRICAN</option>
+      </option>
+    </select><br>
+  
+    <div class="condition-div">
+      
+    <input type="checkbox" name="terms" value="condition" id="TermConone">
+    <label for="terms">I agree with the terms and condition</label><br>
+
+    
+    <input type="checkbox" name="terms" value="condition" id="TermContwo">
+    <label for="terms">I want to recieve the newsletter</label><br>
+    </div>
+    <button id="btn" onclick="validateForm()">Register</button>
+
+    <br>
+  </div>
+</div>
+
+  <script src="script2.js"></script>
+</body>
+</html>

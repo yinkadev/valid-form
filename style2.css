@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 450px;
+  margin: 50px auto 0;
+  border-top: 5px solid rgb(215, 215, 45);
+  background: white; 
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+ #form{
+  line-height: 60px;
+  margin: 20px;
+ }
+
+ .container h5{
+  line-height: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: sans-serif;
+ }
+
+ .first-input input{
+  padding: 5px 0 10px 30px;
+  width: 95%;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  margin: 10px 3px;
+  outline: none;
+ }
+
+ .input-name span{
+  margin-right: 20px;
+ }
+
+ /* .name-info{
+  display: flex;
+  justify-content: space-between;
+ } */
+
+ .name-info input{ 
+  font-family: sans-serif;
+  font-size: 13px;
+  width: 24%;
+  padding: 9px 0 8px 30px;
+  margin: 3% 7px;
+  outline: none;
+  position: relative; 
+ }
+ 
+
+ .icon{
+  position: absolute;
+  margin: 10px 5px;
+  z-index: 2;
+  color: gray;
+  padding-left: 6px;
+  font-size: 20px;
+  display: inline-block;
+  border-right: 1px solid #cccc; 
+  min-height: 35px;
+ }
+
+
+ .name-info input:nth-last-child(1){
+  margin:0 50px;
+ }
+
+  .gender{
+  margin: 5px; 
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+ .gender span{
+  margin: 0 10px;
+ }
+
+ .gender.radio{
+  margin-right: 10%;
+ }
+
+ select{
+  width: 95%;
+  padding: 10px;
+  font-family: serif;
+  font-size: 13px;
+  outline: none;
+  margin: 20px 5px;
+ }
+
+ .condition-div{
+  font-family: serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+ }
+
+ button{
+  width: 95%;
+  padding: 10px ;
+  color: white;
+  background-color:  rgb(196, 196, 66);
+  border: none;
+  font-size: 15px;
+  font-family: serif;
+  margin-bottom: 10px;
+  margin-left: 10px;
+ }
+
+ button:hover{
+  color: white;
+  background-color: black;
+ }
+
+ #erro{
+  width: 250px;
+  color: red;
+  padding-left: 20px;
+  font-family: serif;
+   font-size: 20px;
+  background-color: white;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7); 
+  margin: 20px 40px;
+  padding: 10px;
+  
+ }
